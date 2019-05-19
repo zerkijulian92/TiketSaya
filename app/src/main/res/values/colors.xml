@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--Costum Colors-->
+    <color name="colorPrimaryDark_blue">#203DD1</color>
+    <color name="colorSecondary_blue">#2596f7</color>
+    <color name="colorGreyPrimary">#8D8D8D</color>
+    <color name="colorBlackPrimary">#21272C</color>
+    <color name="bgPrimary">#EDF1F8</color>
+    <color name="greenPrimary">#1abc9c</color>
+</resources>

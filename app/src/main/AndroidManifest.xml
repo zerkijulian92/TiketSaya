@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.takatutustudio.tiketapp">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.takatutustudio.tiketapp.EditProfileAct"></activity>
+        <activity android:name="com.takatutustudio.tiketapp.MyTicketDetailAct" />
+        <activity android:name="com.takatutustudio.tiketapp.MyProfileAct" />
+        <activity android:name="com.takatutustudio.tiketapp.SuccessBuyTicketAct" />
+        <activity android:name="com.takatutustudio.tiketapp.TiketCheckoutAct" />
+        <activity android:name="com.takatutustudio.tiketapp.TicketDetailAct" />
+        <activity android:name="com.takatutustudio.tiketapp.HomeAct" />
+        <activity android:name="com.takatutustudio.tiketapp.SuccessRegisterAct" />
+        <activity android:name="com.takatutustudio.tiketapp.RegisterTwoAct" />
+        <activity android:name="com.takatutustudio.tiketapp.RegisterOneAct" />
+        <activity android:name="com.takatutustudio.tiketapp.SignInAct" />
+        <activity android:name="com.takatutustudio.tiketapp.GetStartedAct" />
+        <activity android:name="com.takatutustudio.tiketapp.SplashAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
